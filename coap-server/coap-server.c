@@ -5,7 +5,7 @@
 #define LOG_MODULE "CoAP Server"
 #define LOG_LEVEL LOG_LEVEL_INFO
 
-extern coap_resource_t res_battery, res_temperature;
+extern coap_resource_t res_battery, res_temperature, res_humidity;
 
 PROCESS(coap_server, "CoAP Server");
 AUTOSTART_PROCESSES(&coap_server);
